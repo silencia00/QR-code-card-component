@@ -1,0 +1,101 @@
+/* font-family: 'Outfit',
+sans-serif; */
+/* - White: hsl(0, 0%, 100%)
+ - Light gray: hsl(212, 45%, 89%)
+  - Grayish blue: hsl(220, 15%, 55%)
+   - Dark blue: hsl(218, 44%, 22%) */
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   body{
+       background-color: hsl(212, 45%, 89%);
+       
+        
+   }
+ .card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: em;
+    margin:12em 6em;
+    background: hsl(0, 0%, 100%);
+    border-radius: 1.5em;
+      }
+   .QR-code img{
+   width: 100%;
+   padding: 2em;
+   border-radius: 10%;
+     }
+   .card-text{
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 2em;
+   }
+   h3{
+    font-family: 'Outfit',
+        sans-serif;
+        margin-top: -1.5em;
+        font-size: 1.5em;
+        padding: 0 0.5em;
+        color:hsl(218, 44%, 22%) ;
+   }
+   p{
+    margin-top: 1em;
+    font-family: 'Outfit',
+            sans-serif;
+            padding: 0 0.5em;
+            font-size: 1.2em;
+            color: hsl(212, 45%, 89%);
+   }
+@media screen and (min-width:1440px){
+    body {
+            background-color: hsl(212, 45%, 89%);
+            padding: 6em;
+    
+    
+        }
+    
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: em;
+            margin: 7em 35em;
+            background: hsl(0, 0%, 100%);
+            border-radius: 1.5em;
+        }
+    
+        .QR-code img {
+            width: 100%;
+            padding: 2em;
+            border-radius: 10%;
+        }
+    
+        .card-text {
+            text-align: center;
+            margin-bottom: 1em;
+            padding: 2em;
+        }
+    
+        h3 {
+            font-family: 'Outfit',
+                sans-serif;
+            margin-top: -1.5em;
+            font-size: 1.5em;
+            padding: 0 0.5em;
+            color: hsl(218, 44%, 22%);
+        }
+    
+        p {
+            margin-top: 1em;
+            font-family: 'Outfit',
+                sans-serif;
+            padding: 0 0.5em;
+            font-size: 1.2em;
+            color: hsl(212, 45%, 89%);
+        }
+}
